@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabo Business – AI Business Bots</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-yacZPTCVEkncZUlLoawXtKs21iMV77GExZVZD5xF1MWV03oLKU1x0g4Q4PCci8on1Uc3JL5BfaM/j2xwW6G3Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="top">
+        <div class="container nav-container">
+            <div class="brand">
+                <span class="logo-text">Fabo Business</span>
+                <span class="slogan" data-i18n="slogan">Dein Partner für AI Business Bots</span>
+            </div>
+            <!-- Language Selector -->
+            <div class="lang-selector">
+                <select id="language-select" aria-label="Sprache wählen">
+                    <option value="de" selected>DE</option>
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 data-i18n="hero_title">Starte dein AI Business – mit Fabo Business Bots.</h1>
+            <p data-i18n="hero_subtitle">Erstelle Content, gewinne Kunden und baue dir ein digitales Einkommen auf – ohne Vorkenntnisse.</p>
+            <a href="#challenge" class="btn primary" data-i18n="btn_free_trial">Jetzt 7 Tage gratis testen</a>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="social-proof">
+        <div class="container social-container">
+            <ul class="social-list">
+                <li><i class="fa-solid fa-users"></i> <span data-i18n="social_users">Über 100 aktive User</span></li>
+                <li><i class="fa-solid fa-seedling"></i> <span data-i18n="social_leads">Täglich neue Leads</span></li>
+                <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="social_meta">Geprüfte Meta-Strategien</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Problem & Solution Section -->
+    <section id="problem-solution">
+        <div class="container problem-container">
+            <div class="problem-text">
+                <h2 data-i18n="problem_title">Dein Problem: Kein Sichtbarkeit – keine Kunden – zu viel Zeitverlust.</h2>
+                <p data-i18n="problem_subtitle">Unsere AI Business Bots erstellen Content, optimieren dein Profil und bringen Kunden automatisch auf dich zu.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features_title">Unsere Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h3 data-i18n="feature_content_title">Content‑Bot</h3>
+                    <p data-i18n="feature_content_desc">Schreibt Meta‑konforme Posts &amp; Reels</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3 data-i18n="feature_sales_title">Sales‑Bot</h3>
+                    <p data-i18n="feature_sales_desc">Trainiert deine Abschlüsse</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3 data-i18n="feature_auto_title">Automation‑Agent</h3>
+                    <p data-i18n="feature_auto_desc">Spart dir Zeit &amp; Arbeit</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-people-group"></i>
+                    <h3 data-i18n="feature_community_title">Community</h3>
+                    <p data-i18n="feature_community_desc">Zugang zu Support &amp; Tipps</p>
+                </div>
+            </div>
+            <div class="feature-cta">
+                <a href="#challenge" class="btn secondary" data-i18n="btn_test_free">Teste jetzt kostenlos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenge Section -->
+    <section id="challenge">
+        <div class="container challenge-container">
+            <h2 data-i18n="challenge_title">Teste uns 7 Tage gratis!</h2>
+            <p data-i18n="challenge_subtitle">Ohne Kaufverpflichtung. Lerne die Bots in der Praxis kennen.</p>
+            <!-- Video embed or placeholder -->
+            <div class="video-wrapper">
+                <!-- Placeholder image instead of unreachable video. Replace image file when an actual video is available. -->
+                <div class="video-placeholder">
+                    <img src="assets/video-placeholder.png" alt="Video Placeholder">
+                    <span class="play-icon"><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            <a href="#pricing" class="btn primary" data-i18n="btn_start_challenge">Challenge starten</a>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <div class="container pricing-container">
+            <h2 class="section-title" data-i18n="pricing_title">Preise</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3 data-i18n="price_test_title">7 Tage Test</h3>
+                    <p class="price" data-i18n="price_test_price">GRATIS</p>
+                    <ul>
+                        <li data-i18n="price_test_benefit1">Volle Nutzung während des Tests</li>
+                        <li data-i18n="price_test_benefit2">Keine Kreditkarte nötig</li>
+                        <li data-i18n="price_test_benefit3">Sofort starten</li>
+                    </ul>
+                    <a href="#contact" class="btn primary" data-i18n="btn_secure">Jetzt sichern</a>
+                </div>
+                <div class="price-card">
+                    <h3 data-i18n="price_lifetime_title">Lifetime‑Zugang</h3>
+                    <p class="price" data-i18n="price_lifetime_price">Preis später eintragen</p>
+                    <ul>
+                        <li data-i18n="price_lifetime_benefit1">Einmalige Zahlung</li>
+                        <li data-i18n="price_lifetime_benefit2">Zugriff auf alle zukünftigen Updates</li>
+                        <li data-i18n="price_lifetime_benefit3">Exklusiver Support</li>
+                    </ul>
+                    <a href="#contact" class="btn primary" data-i18n="btn_secure">Jetzt sichern</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <div class="container faq-container">
+            <h2 class="section-title" data-i18n="faq_title">Häufige Fragen</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false"><span data-i18n="faq_q1">Brauche ich Vorkenntnisse?</span><i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer" hidden>
+                    <p data-i18n="faq_a1">Nein, jeder kann starten.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false"><span data-i18n="faq_q2">Muss ich Videos machen?</span><i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer" hidden>
+                    <p data-i18n="faq_a2">Nein, Fabo Bots arbeiten auch ohne dein Gesicht.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false"><span data-i18n="faq_q3">Wie funktioniert die Bezahlung?</span><i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer" hidden>
+                    <p data-i18n="faq_a3">PayPal, Klarna, Kreditkarte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Call to Action Section -->
+    <section id="final-cta">
+        <div class="container final-cta-container">
+            <h2 data-i18n="final_title">Transformiere jetzt dein Leben mit AI Business Bots.</h2>
+            <a href="#contact" class="btn primary" data-i18n="btn_start_challenge">Jetzt Challenge starten</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title" data-i18n="contact_title">Kontakt</h2>
+            <form id="contact-form" action="#" method="post">
+                <div class="form-group">
+                <label for="name" data-i18n="contact_name_label">Name</label>
+                <input type="text" id="name" name="name" placeholder="" required>
+                </div>
+                <div class="form-group">
+                <label for="email" data-i18n="contact_email_label">E‑Mail</label>
+                <input type="email" id="email" name="email" placeholder="" required>
+                </div>
+                <div class="form-group">
+                <label for="whatsapp" data-i18n="contact_whatsapp_label">WhatsApp (optional)</label>
+                <input type="tel" id="whatsapp" name="whatsapp" placeholder="">
+                </div>
+                <button type="submit" class="btn primary" data-i18n="contact_submit">Absenden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; <span id="current-year"></span> Fabo Business. <span data-i18n="footer_rights">Alle Rechte vorbehalten.</span></p>
+        </div>
+    </footer>
+
+    <!-- Tracking Pixel Placeholder -->
+    <!-- TODO: Insert Meta Pixel or other tracking scripts here -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
